@@ -9,7 +9,7 @@
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./backend/tsconfig.json"
   },
   "rules": {
     "max-len": [
@@ -47,4 +47,5 @@
     "space-before-blocks": "error",
     "spaced-comment": "error",
     "yoda": "error"
+    }
 }

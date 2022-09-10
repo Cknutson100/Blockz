@@ -68,7 +68,7 @@
     "useUnknownInCatchVariables": false
   },
   "include": [
-    "*.ts",
+    "src/*.ts",
   ],
   "exclude": [
   ]

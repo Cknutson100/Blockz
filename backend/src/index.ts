@@ -2,7 +2,7 @@ import express from 'express';
 import logger from 'jet-logger';
 
 
-var router = express.Router();
+const router = express.Router();
 
 /* Home Page */
 router.get('*', function(req, res, next) {
