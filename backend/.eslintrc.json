@@ -1,0 +1,50 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 100
+      }
+    ],
+    "no-console": 1,
+    "no-extra-boolean-cast": 0,
+    "semi": 1,
+    "@typescript-eslint/no-misused-promises": 0,
+    "@typescript-eslint/no-floating-promises": 0,
+    "arrow-spacing": ["warn", { "before": true, "after": true }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": 0,
+    "comma-spacing": "error",
+    "comma-style": ["error", "last"],
+    "curly": ["error", "multi-line", "consistent"],
+    "dot-location": "error",
+    "indent": ["error", 4],
+    "keyword-spacing": "error",
+    "max-nested-callbacks": ["error", { "max": 4 }],
+    "max-statements-per-line": ["error", { "max": 2 }],
+    "no-empty-function": "error",
+    "no-floating-decimal": "error",
+    "no-lonely-if": "error",
+    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1, "maxBOF": 0 }],
+    "no-shadow": ["error", { "allow": ["err", "resolve", "reject"] }],
+    "no-trailing-spaces": ["error"],
+    "no-var": "error",
+    "object-curly-spacing": ["error", "always"],
+    "prefer-const": "error",
+    "quotes": ["error", "double"],
+    "space-before-blocks": "error",
+    "spaced-comment": "error",
+    "yoda": "error"
+}
